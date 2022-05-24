@@ -1,3 +1,3 @@
 # jogos-com-python
 criando jogo com python
-Meu primeiro jogo utilizando python.  :v: :smile:
+#Meu primeiro jogo utilizando linguagem programação Python :smile:
