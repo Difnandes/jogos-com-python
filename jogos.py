@@ -1,20 +1,20 @@
 import forca
 import adivinhacao
 
-def escolha_jogo():
-    print("*********************************")
-    print("******Escolha o seu jogo!********")
-    print("*********************************")
+from titulos import Titulos
+
+def escolha_jogo() -> None:
+    Titulos.montar_titulo('', 1)
 
     print("(1) Forca (2) Adivinhação")
 
-    jogo = int(input("Qual jogo?"))
+    jogo = int(input("Qual jogo? "))
 
     if(jogo == 1):
-        print("Jogando forca")
+        print("\nJogando forca\n")
         forca.jogar()
     elif(jogo == 2):
-        print("Jogando adivinhação")
+        print("\nJogando adivinhação\n")
         adivinhacao.jogar()
 
 if(__name__ == "__main__"):
