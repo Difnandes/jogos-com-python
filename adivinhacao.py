@@ -1,10 +1,10 @@
 import random
 
-def jogar():
+from titulos import Titulos
 
-    print("*********************************")
-    print("Bem vindo ao jogo de Adivinhação!")
-    print("*********************************")
+def jogar() -> None:
+    
+    Titulos.montar_titulo('Adivinhação', 2)
 
     numero_secreto = random.randrange(1,101)
     total_de_tentativas = 0
